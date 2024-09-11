@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorular ve Cevaplar</title>
+    <link rel="stylesheet" href="./teori.css">
+  </head>
+  <body>
+    <form action="">
+    <div class="sorular">
+      <h1 style="font-size: 2rem;">Sorular ve Cevaplar</h1>
+      <hr />
+      <hr />
+      <h3>JSON ve genel kullanımları nelerdir?</h3>
+      <p>
+        JSON(JavaScript Object Notation) bir veri değişim formatıdır. Bu format,
+        veriyi düzenli bir şekilde saklamak ve iletmek için kullanılır. JSON
+        verileri, yapılandırılmış bir şekilde saklamak için düzenli bir biçimde
+        yazılmış metinlerdir. JSON verileri, JavaScript nesnelerinde
+        kullanılabilir ancak diğer programlama dilleri de JSON verileri
+        kullanabilir. <br />
+        JSON verileri, çift tırnak içinde yazılmış anahtar-değer çiftlerinden
+        oluşur. "isim": "Ahmet", gibi..
+      </p>
+      <hr />
+      <h3>= , == ve === işaretleri hangi amaçlarda kullanılır?</h3>
+      <ul>
+        <li>= ; Bir değişkene değer atamak için kullanılır.</li>
+        <br />
+        <li>
+          == ; İki değişken arasındaki eşitliği kontrol eder ve sonucu döndürür.
+          Sonuç 'true' veya 'false' olarak döner.Eşitliği kontrol ederken tip
+          dönüşümü yapar yani "1" ile 1 arasında kontrol yaptığımızı varsayalım:
+          1 == "1" şeklinde kontrol sağladığımızda sonuç 'true' olacaktır. Çünkü
+          "1" değeri string görünse de sayıya dönüştürülerek karşımıza gelir.
+        </li>
+        <br />
+        <li>
+          === ; İki değişken arasında kontrol sağlarken dönüştürme yapmadan
+          eşitliği kontrol eder. Biraz önce verdiğimiz örnek '==' ile kontrol
+          sağladığımızda true dönerken '===' ile kontrol sağladığımızda false
+          dönecektir.
+        </li>
+      </ul>
+      <p>
+        Özetleyecek olursak, == operatörü eşitliği kontrol ederken tip dönüşümü
+        yapar. === operatörü eşitliği kontrol ederken tip dönüşümü yapmaz. ===
+        operatörü daha güvenlidir çünkü tip dönüşümü yapılmadığı için
+        beklenmedik sonuçlar vermez.
+      </p>
+      <hr />
+      <h3>let , var , const anahtar kelimeleri nelerdir?</h3>
+      <p>
+        <b>var;</b> Bir değişkenin değerini atadıktan sonra değiştirilebilir ve
+        tekrar tanımlayabiliriz. Bu esneklik değişkenlerin farklı zamanlarda
+        farklı değerler alabilmesine olanak sağlar. "var" ile tanımlanan
+        değişkenler fonksiyon veya global alanda geçerlidir.
+      </p>
+      <p>
+        <b>let;</b> Bir değişkenin değerini atandıktan sonra güncelleyebilir
+        fakat tekrar tanımlayamayız. "let" ile tanımlanan değişkenler sadece
+        tanımlandıkları kod bloğunun içinde geçerlidir.
+      </p>
+      <p>
+        <b>const;</b> Bir değişkenin değerini atadıktan sonra tekrar değer
+        ataması veya güncelleme yapılamaz. Değişkenin değerinin sabit olduğunu
+        belirtir.
+      </p>
+      <hr />
+      <h3>localStorage ve sessionStorage arasındaki temel fark nedir?</h3>
+      <p>
+        LocalStorage, SessionStorage ile aynıdır, ancak LocalStorage tarayıcı
+        kapatılıp yeniden açıldığında bile verileri korurken, sessionStorage'da
+        sayfa oturumu sona erdiğinde veriler temizlenir. Bu temel fark,
+        verilerin ne kadar süre boyunca saklanacağıdır. localStorage verileri
+        tarayıcı kapatılana kadar saklar, sessionStorage ise oturum kapatılana
+        kadar.
+      </p>
+      <hr />
+      <h3>Yaşam döngüleri nelerdir?</h3>
+      <p>
+        Planlama, Analiz, Tasarım, Gerçekleştirme ve Bakım. Yani yazılım
+        projelerinin planlamasından başlayarak kullanımı boyunca süren bir
+        döngüdür.
+      </p>
+      <hr />
+      <h3>Redux nedir?</h3>
+      <p>
+        JavaScript uygulamaları için bir durum yönetim kütüphanesidir. Uygulama
+        durumunu tek bir depoda (store) merkezileştirerek yönetir. Bu yönetim,
+        React gibi kütüphanelerdeki durum yönetimini (state management)
+        geliştirmek ve daha öngörülebilir bir yapı sağlamak için kullanılır.
+      </p>
+      <hr />
+      <h3>String mod nedir?</h3>
+      <p>Harf dizinleri, karakter yani metin türleridir.</p>
+      <hr />
+      <h3>Scope nedir?</h3>
+      <p>
+        Scope, kodunuzun belli kısımlarında değişkenlerin ve benzerlerinin
+        görünürlüğüdür. Çalışma sırasında kodunuzun belirli bir bölümündeki
+        değişkenlerin, fonksiyonların ve nesnelerin erişilebilirliğidir.
+      </p>
+      <hr />
+      <h3>z-index nedir?</h3>
+      <p>
+        Position uygulanan etiketlerin z konumundaki yerini ayarlamak için
+        kullanılır. z-index sayısal olarak değer alır ve sayısal büyüklüğe göre
+        ya arkaya ya da öne gelir.
+      </p>
+      <hr />
+      <h3>SEO kimdir? Görevi nedir</h3>
+      <p>
+        Arama Motoru Optimizasyonu Yöneticisi (SEO), web sitelerinin arama
+        motorlarında ön sıralara çıkmasını, ziyaretçi sayısının artmasını
+        sağlayan kişidir. Web sitelerinin arama motorlarında görünürlüğünü
+        artırmak için site içi ayarlamaları yapar.
+      </p>
+      <hr />
+      <h3>Key Prop nedir?</h3>
+      <p>
+        React'te dinamik olarak oluşturulan bileşen listelerinde her bir
+        bileşeni benzersiz bir şekilde tanımlamak için kullanılır.
+      </p>
+      <hr />
+      <h3>Fragment nedir ne işe yarar?</h3>
+      <p>
+        Kullanıcı arayüzü tasarımını zenginleştirmeye , ekranlar arasında veri
+        aktarmaya ve farklı cihaz boyutlarına uyum sağlamaya yardımcı olur.
+      </p>
+      <hr />
+      <h3>React Context API nedir?</h3>
+      <p>
+        React uygulamalarında global state yönetimi için kullanılan bir araçtır.
+        Context API, bileşenler arasında veri iletimine olanak sağlar ve props
+        kullanarak veri aktarmanın karmaşıklığından kaçınmanıza yardımcı olur.
+      </p>
+      <hr />
+      <h3>JSX nedir?</h3>
+      <p>
+        JavaScript dosyası içinde HTML benzeri biçimlendirme (markup) yazmanıza
+        olanak tanıyan bir JavaScript söz dizimi uzantısıdır.
+      </p>
+      <hr />
+      <h3>Prop nedir?</h3>
+      <p>
+        React, kullanıcı tanımlı bir bileşeni gördüğü zaman, JSX özelliklerini
+        ve alt elemanlarını bu bileşene tek bir nesne olarak aktarır. Bu nesneye
+        “props” adı verilir.
+      </p>
+      <hr />
+      <h3>map() fonksiyonu nedir?</h3>
+      <p>
+        Bir liste yapılabilir veri türlerinin her bir verisini bir fonksiyona
+        tek tek parametre olarak göndermek için kullanılır.
+      </p>
+      <hr />
+      <h3>forEach ile map fonksiyonları arasındaki fark nedir?</h3>
+      <p>
+        forEach bize döngü sonunda bir array döndürmez, map fonksiyonu bize bir
+        array döndürür. Böylelikle yeni elemanları biz farklı bir array'e
+        eklememize gerek kalmaz.
+      </p>
+      <hr />
+      <h3>State nedir?</h3>
+      <p>
+        State, uygulamanızın durumunu ve verilerini tutmak için kullanılan bir
+        JavaScript nesnesidir. State, uygulamanızın belirli bir zamandaki
+        durumunu temsil eder ve değiştirilebilir yapısı sayesinde
+        uygulamanızdaki dinamik değişikliklere izin verir.
+      </p>
+      <hr />
+      <h3>
+        Class(Sınıf) Component ve Functional(Fonksiyonel) Component nedir?
+      </h3>
+      <p>
+        Fonksiyonel bileşenler genellikle basit ve modüler bileşenler
+        oluşturmak, Hooks ile işlevselliği artırmak ve daha iyi performans elde
+        etmek için tercih edilir. Ancak, bazı karmaşık senaryolarda ve yaşam
+        döngüsü olayları gerektiren durumlar için sınıf bileşenleri tercih
+        edilir. Her durumda, projenizin ihtiyaçlarına ve gereksinimlerine göre
+        en uygun bileşen türünü seçmek önemlidir.
+      </p>
+      <hr />
+      <h3>React Hook nedir?</h3>
+      <p>
+        Fonksiyonel bileşenlerin state yönetimi, yaşam döngüsü metotlarına
+        erişim ve diğer React özelliklerine kolayca erişimini sağlayan bir
+        özelliktir.“Hook” kelimesi, programlama dillerinde genellikle bir
+        işlevin işlevselliğini genişleten veya değiştiren küçük bir parça kodu
+        ifade eder. React Hook’lar; “useState”, “useEffect”, “useContext”,
+        “useReducer” ve “useCallback” gibi önceden tanımlanmış fonksiyonlardır.
+      </p>
+      <hr />
+      <h3>useState ve useEffect nedir?</h3>
+      <p>
+        <b>useState;</b> bir fonksiyonel bileşenin durumunu yönetmek için
+        kullanılan bir hooks fonksiyonudur. Kısacası useState, bir işlev
+        componentindeki durumu izlememize olanak tanır. useState iki değer
+        döndürür. Biri şu anki mevcut durum, diğeri ise güncellenen durumdur.
+      </p>
+      <p>
+        <b>useEffect;</b> React component’inin yaşam döngüsü boyunca belirli
+        işlemleri takip etmek ve gerçekleştirmek için kullanılır. Kısaca; bir
+        bileşeni harici bir sistem ile senkronize etmenizi sağlayan React
+        Hook'udur.
+      </p>
+    </div>
+
+    <hr />
+    <hr />
+    <hr />
+    <div class="teori">
+      <h2>
+        <a style="font-size: 1.3rem;" href="./teori.html">Teorik Bilgiler Sayfası</a>
+      </h2>
+    </div>
+</form>
+  </body>
+</html>

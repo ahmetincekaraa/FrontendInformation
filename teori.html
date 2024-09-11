@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Teorik Bilgiler</title>
+    <link rel="stylesheet" href="teori.css">
+</head>
+<body>
+    <form action="">
+        <h1 style="font-size: 2rem;">Teorik Bilgiler</h1><hr>
+    <div class="html" id="html">
+        <h1>HTML</h1> <hr> <hr>
+        
+           
+<p>HTML bir döküman bildirir</p>
+            
+                <p>body; döküman gövdesidir. Görüntülenecek kısımdır.</p>
+            
+                <p>
+                    &lt;title&gt; &lt;/title&gt; kısmı browser'daki görülen başlık (isim)
+                </p>
+<hr>
+<h3>Meta Etiketleri</h3>
+<p>head kısmında bulunur</p>
+<p>&lt;meta charset="UTF-8"&gt; dediğimizde sayfanın Türkçe kodlama olduğunu belirtmiş oluruz.</p>
+<hr>    
+<h3>Yazım İle İlgili Etiketler</h3>
+<p>&lt;font&gt;&lt;/font&gt; içinde color(renk), size(boyut),face(görünüm) gibi özelliklerle yazı özelliklerini değiştirebiliriz.</p>
+<p>&lt;p&gt;&lt;/p&gt; paragraflar için kullanılan etiket.</p>
+<p>&lt;b&gt;&lt;/b&gt; <b>Kalın</b> yazmak için kullanılan etiket</p>
+<p>&lt;u&gt;&lt;/u&gt; <u>Altı çizili</u> metin yazmak için kullanılan etiket</p>
+<p>&lt;br&gt; paragraf boşluğu bırakır</p>
+<p>&lt;br/&gt; satır arası boşluk bırakır</p>
+<p>&lt;h1&gt; başlık etiketidir. h1,h2,h3,h4,h5,h6 şeklinde kullanılabilir. En büyük h1 en küçük ise h6 etiketidir.</p>
+<p>&lt;hr&gt; etiketi yatay bir çizgi çeker</p>
+<p>&lt;sub&gt; alt indis ekler</p>
+<p>&lt;sup&gt; üst indis ekler</p>
+<p>&lt;del&gt;&lt;/del&gt; yazının <del>üstünü çizmek</del> için kullanılır</p>
+<p>&lt;code&gt;&lt;/code&gt; <code>farklı</code> bir yazı biçimi</p>
+<hr>
+<h3>Resimle İlgili Etiketler</h3>
+<p>&lt;img src="Resim klasör içindeyse klasörün ismi sonra / işaresi sonrasında resim ismini yazıyoruz."&gt;</p>
+<p>width = "genişlik özelliği"</p>
+<p>height = "yükseklik özelliği"</p>
+<p>title = "resim açıklaması"</p>
+<p>alt = "resim açılmadığında gösterilecek açıklama"</p>
+<p>border = "kenarlık vermek için"</p>
+<hr>
+<h3>Link Verme Etiketleri</h3>
+<p>&lt;a&gt;&lt;/a&gt; etiketi ile link verebiliriz.</p>
+<p>&lt;a href="https://www.blablabla.com"&gt; burada href özelliğiyle gidilecek link eklenir.</p>
+<p>&lt; a target=_blank&gt; yaptığımızda verdiğimiz link yeni bir sayfada açılır.</p>
+<hr>
+<h3>Tablo Oluşturma Etiketleri</h3>
+<p>&lt;thead&gt;&lt;/thead&gt; Tablo başlığı olarak kullanılır.</p>
+<p>&lt;tbody&gt;&lt;/tbody&gt;tablo bu etiketin içinde yapılmaya başlanır.</p>
+<p>&lt;table&gt;&lt;/table&gt; tablonun başlangıcını belirten etiket</p>
+<p>&lt;tr&gt;&lt;/tr&gt; Tabloda satır açmak için kullanılan etiket</p>
+<p>&lt;td&gt;&lt;/td&gt; Tabloda sütun açmak için kullanılan etiket</p>
+<p>border özelliği tablomuza kenarlık eklemek içindir. &lt;table border="4"&gt; şeklinde kullanılır</p>
+<p>&lt;th&gt;&lt;/th&gt; etiketi tablo başlıklarını belirlemek için kullanılır</p>
+<hr>
+<h3>Listeleme Etiketleri</h3>
+<p><ol><li>Sıralı Maddeleme: &lt;ol&gt;&lt;/ol&gt; etiketleri arasında &lt;li&gt;&lt;/li&gt; etiketleri kullanılarak oluşturulur.</li></ol></p>
+<p><ul><li>Sırasız Maddeleme: &lt;ul&gt;&lt;/ul&gt; etiketleri arasında &lt;li&gt; &lt;/li&gt; etiketleri kullanılarak oluşturulur.</li></ul></p>
+<hr><hr>
+<h2>HTML5 - Semantik Etiketler</h2>
+<p>Semantik (Anlamsal) etiketler HTML5 ile birlikte çıkmıştır. <br>Semantik etiketleri kullanmak kod okunurluğunu arttırır ve google arama sonuçlarındaki sonuçlarda öne çıkma faydası olur.</p><br>
+<b>Semantik etiketlere örnek;</b>
+<ul>
+    <li>
+    &lt;article&gt;
+</li>
+<li>&lt;aside&gt;</li>
+<li>&lt;footer&gt;</li>
+<li>&lt;header&gt;</li>
+<li>&lt;main&gt;</li>
+<li>&lt;nav&gt;</li>
+<li>&lt;section&gt;</li>
+</ul><br>
+<b>Bazı semantik etiketlerin anlamları ve kullanım amaçları;</b>
+<h3>&lt;header&gt;;</h3>
+<p>Sitemizin ve sayfamızdaki genel başlık olarak kullanılabilir.</p>
+<h3>&lt;nav&gt;;</h3>
+<p>Navigation anlamına gelir. Menü kısımları için kullanılabilir.</p>
+<h3>&lt;article&gt;;</h3>
+<p>Sitemizin türüne göre blog yazıları, köşe yazıları gibi bölümler için kullanılabilir.</p>
+<h3>&lt;footer&gt;;</h3>
+<p>Sayfamızın en alt kısmında site hakkındaki açıklamalar için kullanılabilir.</p>
+    </div> <hr><hr><hr>
+    
+    <div class="css" id="css">
+        <h1>CSS (Cascading Style Sheets)</h1><hr>
+        <h3>INLINE CSS</h3>
+        <p>HTML tagları içinde style etiketi ile kazandırılan özelliklere denir. Çok fazla yer kapladığı için, kod karışıklığı ve tekrarı oluştuğu için çok kullanışlı değildir.</p><hr>
+        <h3>INTERNAL CSS</h3>
+        <p>&lt;head&gt; etiketi içinde style ile özellik kazandırma yöntemidir. Class veya Id isimleriyle özellik verilebilir. Tag ismi ile özellik verirsek kullandığımız tüm taglar etkilenecektir.</p><hr>
+        <h3>EXTERNAL CSS</h3>
+        <p>Ayrı bir CSS dosyası açıp orada tüm özellikleri verdikten sonra &lt;head&gt; etiketi içerisinde &lt;link href=""&gt; şeklinde dosyamızı tanımlayarak özellik kazandırma yöntemidir. </p>
+        <hr>
+        <p><b>Id Etiketi;</b> En etkili etikettir. Id sadece bir defa verilebilir. Style özelliğini '#' işareti ile verilir.</p><hr>
+        <p><b>Class Etiketi;</b> İkinci etkin etikettir. Style özelliğini '.' işareti ile verilir.</p><hr>
+        <h3>CSS ÖNCELİKLERİ</h3><br>
+        <ol>
+            <li>INLINE CSS</li>
+            <li>ID SELECTOR</li>
+            <li>CLASS SELECTOR</li>
+        </ol><hr>
+        <h3>MARGIN</h3>
+        <p>Bir nesnenin dış alana olan mesafesidir.</p><hr>
+        <h3>PADDING</h3>
+        <p>Bir nesnenin içeriği ile kenarlık arasındaki mesafesidir.</p><hr>
+        <h3>BORDERS</h3>
+        <p>Etiketin çerçevesi için kullanılır.</p><br>
+        <b>Bazı border çeşitleri;</b><br>
+        <ul>
+            <li>
+                dotted: Noktalı kenarlık
+            </li>
+            <li>
+                dashed: Kesik çizgili kenarlık
+            </li>
+            <li>
+                solid: Katı kenarlık
+            </li>
+            <li>
+                double: Çift kenarlık
+            </li>
+            <li>
+                groove: 3B oluklu kenarlık
+            </li>
+            <li>
+                ridge: 3B çıkıntılı kenarlık
+            </li>
+        </ul><br>
+        <p><b>border-width;</b> Çizgi kalınlığı</p><br>
+        <p><b>border-color;</b> Çizgi rengi</p><br>
+        <p><b>border-top,right,bottom,left;</b> Seçilen kısım için bireysel özellik</p><br>
+        <p><b>border-radius;</b> Çerçeve köşelerini yuvarlama</p><hr>
+        <h3>BOX SIZING</h3>
+        <p>Bir etiketin toplam genişliğine ve yüksekliğine padding ve border'ı dahil etmemizi sağlar. Tüm sayfa için style açıp (* işareti ile) 'box-sizing: border-box' şeklinde yaparsak sayfamızın margin ve padding özelliklerini ayarlayıp sayfamızın düzenli olmasını sağlıyor.</p><hr>
+        <h3>DISPLAY</h3>
+        <p>Yan yana gelen bu nesnelere inline etiket, alt alta gelen etiketlere ise block etiketler denir.</p><br>
+        <p>Display için none | inline | inline-block | block elementleri mevcut.</p><br>
+        <ul>
+            <li>
+                <b>display: block;</b> alabileceği maksimum genişlik değerini alır ve tüm satırı kaplar. Kendisinden sonra gelen element bir sonraki satıra geçer.
+            </li>
+            <li>
+                <b>display: inline;</b> sadece kendisi kadar yer kaplar inline özelliğine sahip element Inline elementler aynı satırda sıralanırlar. Inline etiketlere genişlik ve yükseklik veremeyiz.
+            </li>
+            <li><b>display: inline-block;</b> inline-block özelliği block ile inline özelliklerinin bir birleşimi olarak ifade edilebilir. Yani, elementler aynı satırda konumlandırılırken yükseklik ve genişlik özelliklerine de müdahale edebilmekteyiz. Bu sebeple çoğu zaman layout sürecinde (menu, card, slider vb.) aktif olarak bu özellikten faydalanmaktayız.</li>
+        </ul>
+    </div><hr>
+        <h2>Flexbox</h2>
+        <ul>
+            <li>
+                <b>flex-direction;</b> Elemanların sıralanma yönlerini belirlemek için kullanılır. 
+                <ol>
+                    <li>
+                        row: → Elemanları soldan sağa yatay sıralar. (Default) 
+                    </li>
+                    <li>column: → Elemanları yukarıdan aşağı dikey sıralar.</li>
+                </ol>
+            </li>
+            <li>
+                <b>flex-wrap</b>  Eklenen elemanlar kapsayıcı genişliğini aştığında yeni satırda başlaması için kullanılır.  
+            </li>
+            <ol>
+                <li>
+                    nowrap: → Elemanlar tek satırda soldan sağa sıralanır. (Default) 
+                </li>
+                <li>wrap: → Elemanlar kapsayıcı genişliğini aştığında yeni satırda sıralanmaya başlar</li>
+            </ol>
+            <li>
+                Justify-content: → Öğelerin yatay eksende hizalanmasını ayarlamak için kullanılır.
+            </li>
+            <li>
+                Align-items: → Öğelerin dikey olarak hizalanmasında kullanılır. 
+            </li>
+        </ul>
+     <hr><hr><hr>
+    <div class="javascript" id="javascript">
+        <h1>JavaScript (JS)</h1><hr>
+        <p><b>JavaScript;</b> web sayfalarında yaygın olarak kullanılan, geliştiricilerin sayfaları dinamik hale getirip tarayıcı ile kullanıcı arasındaki etkileşimi oluşturmak için kullandığı bir programlama dilidir.</p><br>
+        <p>JavaScript işlevleri, sosyal medya akışlarını yenilemekten animasyonlar ve etkileşimli haritalar göstermeye kadar, bir web sitesi kullanıcısının deneyimini iyileştirebilir.</p>
+        <hr>
+        <h3>JavaScript Array Metodları</h3>
+        <p>JavaScript dizileriyle çalışırken kullanılan array metodları vardır. Bu metodlar; verileri işlemek, güncellemek, silmek gibi önemli işlevleri üstlenir. Kullanılan temel metodlar şunlardır;</p> <br>
+        <ul>
+            <li>
+                push()
+            </li>
+            <li>pop()</li>
+            <li>shift()</li>
+            <li>unshift()</li>
+            <li>find()</li>
+            <li>some()</li>
+            <li>every()</li>
+            <li>sort()</li>
+            <li>includes()</li>
+            <li>slice()</li>
+            <li>map()</li>
+            <li>filter()</li>
+            <li>reduce()</li>
+            <li>forEach()</li>
+            <li>indexOf()</li>
+            <li>lastIndexOf</li>
+            <li>reverse()</li>
+            <li>concat</li>
+            <li>join()</li>
+            <li>toString()</li>
+        </ul><br>
+        <h4>push()</h4>
+        <p>Bir dizinin sonuna eleman veya elemanlar ekler ve dizinin yeni halini döndürür.</p>
+        <h4>pop()</h4>
+        <p>Bir dizinin son elemanını kaldırır ve kaldırılan elemanı döndürür.</p>
+        <h4>shift()</h4>
+        <p>Bir dizinin ilk elemanını kaldırır ve kaldırılan elemanı döndürür.</p>
+        <h4>unshift()</h4>
+        <p>Bir dizinin başına eleman veya elemanlar ekler ve dizinin yeni halini döndürür.</p>
+        <h4>find()</h4>
+        <p>Dizi içerisinde arama yapar. Belirlenen kriterleri sağlayan ilk değeri döndürür. Eğer kriteri sağlayan değeri bulunmaz ise 'undefined(tanımsız)' değerini döndürür.</p>
+        <h4>map()</h4>
+        <p>Dizi içerisindeki tüm elemanları bir işlemden geçirmek için kullanılır. Her bir eleman tek tek işlenir, geriye ne döndürüleceği belirlenebilir. Ve sonunda ise, işlemden geçen öğelerden oluşan bir dizi geriye döner.</p>
+        <h4>filter()</h4>
+        <p>Bir dizide belirlediğimiz koşulu sağlayan elemanları filtreler, istediğimiz koşula sahip olan elemanlarla yeni bir dizi oluşturulur.</p>
+        <h4>forEach()</h4>
+        <p>Belirlediğimiz bir işlevde döngü oluşturmamızı ve bu döngüyü sırayla çalıştırmamızı sağlar. Her elemanı bir defa döndürür.</p>
+        <h4>indexOf()</h4>
+        <p>Bir dizide belirlediğimiz elemanın bulunduğu ilk indeksi döndürür. Eleman dizide bulunmuyorsa '-1' değeri döner.</p>
+        <h4>toString()</h4>
+        <p>Kullanılan değişkenin değerini string olarak değiştirmek için kullanılır.</p>
+    </div><hr><hr><hr>
+    <div class="react" id="react">
+        <h1>React</h1><hr>
+        <p><b>React;</b> kullanıcı arayüzü oluşturmak için en çok tercih edilen JavaScript kütüphanesidir.Facebook tarafından geliştirilen bu kütüphane; Netflix, WhatsApp, Instagram gibi büyük şirketler tarafından da kullanılmaktır. Kullanımı kolay, açık kaynak kodlu bir kütüphanedir.</p> <hr>
+        <h3>React Projesi Oluşturma</h3>
+        <ol>
+            <li>
+                npx create-react-app proje-ismi : Şeklinde projemizi oluşturuyoruz.
+            </li>
+            <li>cd proje-ismi : Şeklinde oluşturduğumuz projemizi seçiyoruz.</li>
+            <li>npm start : Şeklinde projemizi ayağa kaldırır (çalıştırır).</li>
+        </ol> <hr>
+        <h3>Component (Bileşen)</h3>
+        <p>React, component tabanlı bir yaklaşımı benimsediği için componentler çok önemlidir.</p>
+        <p>Component, React'ın en küçük yapı taşlarından biridir. Birbirinden bağımsız ve yeniden kullanılabilir kod parçalarıdır ve her componentin kendine özgü görevi vardır.</p>
+        <h4>Functional Components</h4>
+        <p>Function components; özünde bir JavaScript fonksiyonudur. Kullanılan en yaygın component oluşturma metodudur. İçinde bulunan return ifadesi ile geriye React elementi(JSX) döndürülür.</p>
+        <h4>Class Components</h4>
+        <p>Class Component ES6 class yapısını temel alır.React.Component Class’ından türetilir ve bu class içinde render fonksiyonu bulunur.Class component’leri, daha karmaşık durum yönetimi, yaşam döngüsü olayları ve daha fazla işlevsellik gerektiren durumlar için kullanılır.</p>
+        <p><b>Yaşam Döngüsü;</b> Yazılım da aslında bir üründür ve ürünlerin bir yaşam süreci vardır. Yazılımın yaşam döngüsü tek yönlü veya doğrusal değildir ve birkaç temel aşamadan oluşur. Bu aşamalar şunlardır: Planlama, Analiz, Tasarım, Gerçekleştirme ve Bakım. Yani yazılım projelerinin analiz ve planlanmasından başlayarak kullanımı boyunca süren bir döngüdür diyebiliriz.</p>
+        <p><b>render;</b> bileşenin HTML'sini sayfaya işlemek için kullanılır. Bir bileşenin durumu değiştiğinde, bileşen kendini yeniden işler, yani bileşenin HTML'sinin geçerli durumla güncel olduğundan emin olmak için render() yöntemi tekrar çağrılır.</p>
+        <p><b>ES5 / ES6</b>; ES5, 2009'da yayınlanan bir JavaScript sürümünün kısaltmasıdır, ES6 ise 2015'te yayınlanan bir JavaScript sürümünün kısaltmasıdır.</p> <hr>
+        <h3>Real DOM - Virtual DOM</h3>
+        <p><b>Real DOM (Gerçek DOM);</b> Tarayıcıda bulunan ve web sayfasının temsil edildiği gerçek HTML ağacıdır, ancak doğrudan değişiklik yapmak işlemci kaynaklarını tüketebilir ve performans sorunlarına yol açabilir.</p>
+        <p><b>Virtual DOM (Sanal DOM);</b> React’in performansı artırmak için kullandığı bir kavramdır. Web uygulamasının kullanıcı arayüzünü temsil eden hafızadaki bir veri yapısıdır.</p>
+    </div>
+    
+    
+    
+    <hr><hr><hr>
+    <hr>
+    <div class="sorular">
+        <h2>
+        <a style="font-size: 1.3rem;" class="sorular" href="./sorular.html">Sorular & Cevaplar Sayfası</a>
+    </h2>
+    </div>
+</form>
+<nav>
+    <a href="#html">
+        <img src="./images/html.png" alt="">
+    </a>
+    <a href="#css">
+        <img src="./images/css.png" alt="">
+    </a>
+    <a href="#javascript">
+        <img src="./images/js.png" alt="">
+    </a>
+    <a href="#react">
+        <img src="./images/react.png" alt="">
+    </a>
+    
+
+</nav>
+</body>
+</html>
